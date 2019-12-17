@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "title": "SELF DESCRIPTION ESSAY",
+      "paragraphs": [
+        "Today’s society is distinguished by its very characteristic of complexity(Lawrence, 2007). The world of today is so fast paced and tech savvy that we humans have to juggle a multitude of roles and tasks in order to lead our lives with a reasonable semblance of order. Thus, welcome to the modern life of today: where u will find one person being a single parent, a white collar worker and taking part in social activities all at the same time.",
+        "The same can be said about me. When I was a kid, I never truly appreciated my parents. True, their lives were a bit more sedentary than ours is nowadays but they also fulfilled their roles as parents and workers at the same time. Today, I am a full-time student, a part-time tutor teaching ninth and tenth-grade kids so I can earn some pocket money and have responsibilities for half my household chores. This is all apart from my fervent social activity schedule which only a teenager can have and my hobbies which I will get at later. So I can definitely appreciate people who juggle multiple roles and responsibilities, tougher and more time demanding than mine."
+      ],
+      "images": [
+        {
+          "prio": 1,
+          "url": "https://images-eu.ssl-images-amazon.com/images/I/811KEbZlORL.png"
+        },
+        {
+          "prio": 3,
+          "url": "https://thenypost.files.wordpress.com/2019/09/tv-scooby-doo-2b.jpg?quality=80&strip=all&w=618&h=410&crop=1"
+        }
+      ]
+    }
+  ]
+}
