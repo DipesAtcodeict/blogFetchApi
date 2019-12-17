@@ -17,7 +17,11 @@ function App() {
     const { title, paragraphs, images } = data;
 
     if (data.data !== null) {
-      const blogTitle = React.createElement("h2", { key: "title" }, title);
+      const blogTitle = React.createElement(
+        "h2",
+        { key: "title", className: "mb-5 mt-3 text-center" },
+        title
+      );
 
       let article = [blogTitle];
       for (let i = 0; i < paragraphs.length; i++) {
@@ -41,7 +45,8 @@ function App() {
       let imgPrio = images[i].prio;
       let imgEl = React.createElement("img", {
         key: `img${i}`,
-        src: images[i].url
+        src: images[i].url,
+        className: "img-fluid mb-3 image"
       });
       arr.splice(imgPrio, 0, imgEl);
     }
@@ -55,7 +60,7 @@ function App() {
     return bodyWithImages;
   };
 
-  return <div>{renderBlog()}</div>;
+  return <div className="container">{renderBlog()}</div>;
 }
 
 export default App;
